@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí đơn hàng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <h1 class="header-content">Bài tập 1 - 21120500</h1>
+        <nav class="navigation">
+          <a href="#" class="menu-item menu-1">Menu 1</a>
+          <a href="#" class="menu-item">Menu 2</a>
+          <a href="#" class="menu-item">Menu 3</a>
+          <a href="#" class="menu-item">Menu 4</a>
+          <a href="#" class="menu-item">Menu 5</a>
+        </nav>
+      </div>
+    </section>
+    <section id="center">
+      <div id="side">
+        <ul class="container">
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-1" id="news-1">
+            <label for="news-1">NEWS 01</label>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                aliquam nihil reprehenderit minima similique, magni aperiam
+                asperiores sit odio officia.
+              </p>
+            </div>
+          </li>
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-2" id="news-2">
+            <label for="news-2">NEWS 02</label>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                aliquam nihil reprehenderit minima similique, magni aperiam
+                asperiores sit odio officia.
+              </p>
+            </div>
+          </li>
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-3" id="news-3">
+            <label for="news-3">NEWS 03</label>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                aliquam nihil reprehenderit minima similique, magni aperiam
+                asperiores sit odio officia.
+              </p>
+            </div>
+          </li>
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-4" id="news-4">
+            <label for="news-4">NEWS 04</label>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                aliquam nihil reprehenderit minima similique, magni aperiam
+                asperiores sit odio officia.
+              </p>
+            </div>
+          </li>
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-5" id="news-5">
+            <label for="news-5">NEWS 05</label>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                natus rerum atque voluptate magni unde id modi ducimus, culpa
+                facere dolorem maxime, vitae quidem perspiciatis illum vero,
+                provident molestiae quam.
+              </p>
+            </div>
+          </li>
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-6" id="news-6">
+            <label for="news-6">NEWS 06</label>
+            <div class="content">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis animi, nemo mollitia accusamus consequatur dolores!
+                Cumque molestias perspiciatis in sapiente, aperiam velit soluta
+                voluptatem dolor maiores beatae!
+              </p>
+            </div>
+          </li>
+          <li class="new-item" draggable="true">
+            <input type="checkbox" name="news-7" id="news-7">
+            <label for="news-7">NEWS 07</label>
+            <div class="content">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium quibusdam distinctio accusantium pariatur obcaecati
+                sequi culpa sit blanditiis ipsum voluptates!
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="main">
+        <h2 class="para">ĐĂNG KÝ ĐƠN HÀNG</h2>
+        <div class="customer-info">
+          <div class="input" id="input-name">
+            <label class="full-name">Họ và Tên: </label>
+            <input id="checked" type="text" placeholder="Enter your full name">
+            <p class="error none-display" id="error-name">*Họ tên không hợp lệ.</p>
+            <p class="error none-display" id="empty-name">*Họ tên chưa được
+              điền.</p>
+          </div>
+          <div class="input" id="input-address">
+            <label class="address">Địa chỉ: </label>
+            <input type="text" placeholder="Enter your address">
+            <p class="error none-display" id="error-address">*Địa chỉ không hợp
+              lệ.</p>
+            <p class="error none-display" id="empty-address">*Địa chỉ chưa được
+              điền.</p>
+          </div>
+          <div class="input" id="input-phone-number">
+            <label class="phone-number">Điện thoại: </label>
+            <input type="text" placeholder="Enter your phone number">
+            <p class="error none-display" id="error-phone">*Điện thoại không hợp
+              lệ.</p>
+            <p class="error none-display" id="empty-phone">*Điện thoại chưa được
+              điền.</p>
+          </div>
+          <div class="input" id="radio-gender">
+            <label class="gender">Giới tính: </label>
+            <div class="gender-selection">
+              <input type="radio" name="sex" class="gender-radio" id="male"
+                value="Male"><label
+                for="male">Nam</label>
+              <input type="radio" name="sex" class="gender-radio" id="female"
+                value="Female"><label
+                for="female">Nữ</label>
+            </div>
+            <p class="error none-display" id="empty-gender">*Giới tính chưa được
+              chọn.</p>
+          </div>
+          <div class="input" id="input-delivery-date">
+            <label for="delivery-date">Ngày giao hàng:</label>
+            <input type="date" id="deliveryDate" name="deliveryDate">
+            <p class="error none-display" id="error-date">*Ngày tháng không hợp
+              lệ.</p>
+            <p class="error none-display" id="empty-date">*Ngày tháng chưa được
+              chọn.</p>
+          </div>
+          <div class="input" id="input-email">
+            <label for="email">Email: </label>
+            <input type="email" placeholder="your-email@gmail.com">
+            <p class="error none-display" id="error-email">*Email không hợp lệ.</p>
+            <p class="error none-display" id="empty-email">*Email chưa được
+              điền.</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="products-list">
+            <h3 class="content">Danh sách sản phẩm</h3>
+            <div class="list-items">
+              <div class="item" draggable="true"><span class="emoji">📱</span>
+                <span class="name">IPhone
+                  14 Pro Max 256GB</span><span class="price"> $1349</span>
+              </div>
+              <div class="item" draggable="true"><span class="emoji">📱</span>
+                <span class="name">SamSung
+                  S23 Ultra 256GB</span><span class="price"> $1010</span>
+              </div>
+              <div class="item" draggable="true"><span class="emoji">📱</span>
+                <span class="name">iPad
+                  M1 Pro 11" 128GB</span><span class="price"> $899</span>
+              </div>
+              <div class="item" draggable="true"><span class="emoji">💻</span>
+                <span class="name">ASUS
+                  ZenBook UX505</span><span class="price"> $1299</span>
+              </div>
+              <div class="item" draggable="true"><span class="emoji">📱</span>
+                <span class="name">LG
+                  Gram 2023 17"</span><span class="price"> $1049</span>
+              </div>
+              <div class="item" draggable="true"><span class="emoji">💻</span>
+                <span class="name">Macbook
+                  M2 Pro 14" 2023</span><span class="price"> $1799</span>
+              </div>
+            </div>
+          </div>
+          <div class="order-button">
+            <button class="move moveRight">></button>
+
+            <button class="moveAll moveAllRight ">>></button>
+            <button class="move moveLeft"><</button>
+            <button class="moveAll moveAllLeft"><<</button>
+          </div>
+          <div class="products-selected">
+            <h3 class="content">Sản phẩm đã chọn</h3>
+            <div class="list-items">
+              <div class="item" draggable="true"><span class="emoji">📱</span>
+                <span class="name">IPhone
+                  14 Pro Max 256GB</span><span class="price"> $1349</span>
+              </div>
+              <div class="item" draggable="true"><span class="emoji">💻</span>
+                <span class="name">Macbook
+                  M2 Pro 14" 2023</span><span class="price"> $1799</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="register">Đăng kí</button>
+          <button class="clear-all">Xoá hết</button>
+        </div>
+        <div class="list-ordered">
+          <!-- Chứa danh sách các khách hàng đã đặt hàng thành công. -->
+          <table>
+            <thead>
+              <th style="width: 20%;">Họ Tên</th>
+              <th style="width: 15%;">Giới tính</th>
+              <th style="width: 20%;">Địa chỉ</th>
+              <th style="width: 15%;">Ngày giao</th>
+              <th style="width: 30%;">Sản phẩm</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nguyễn Thị A</td>
+                <td>Nữ</td>
+                <td>TP. Hồ Chí Minh</td>
+                <td>07/10/2023</td>
+                <td>LG Gram 2023 17"; iPad Pro M1 11" 128GB</td>
+              </tr>
+              <tr>
+                <td>Trần Thị C</td>
+                <td>Nữ</td>
+                <td>TP. Cần Thơ</td>
+                <td>01/11/2023</td>
+                <td>Iphone 14 Pro Max 256GB</td>
+              </tr>
+              <tr>
+                <td>Lê Văn Nam</td>
+                <td>Nam</td>
+                <td>Hà Nội</td>
+                <td>01/08/2023</td>
+                <td>ASUS Zenbook UX505; SamSung S23 Ultra 256GB; iPad Pro M1 11"
+                  256GB</td>
+              </tr>
+              <tr>
+                <td>Phạm Thị D</td>
+                <td>Nữ</td>
+                <td>Hải Phòng</td>
+                <td>12/03/2023</td>
+                <td>Iphone 4s 32GB</td>
+              </tr>
+              <tr>
+                <td>Nguyễn Văn Toản</td>
+                <td>Nam</td>
+                <td>Thanh Hoá</td>
+                <td>20/10/2023</td>
+                <td>Iphone 14 Pro Max 256GB</td>
+              </tr>
+              <tr>
+                <td>Nguyễn Công Phượng</td>
+                <td>Nam</td>
+                <td>Nghệ An</td>
+                <td>05/05/2023</td>
+                <td>Iphone 15 Pro Max 256GB</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <p class="copyright">Copyright © MinhFoolish</p>
+        <a href="#" class="menu-item footer-menu-1">Menu 1</a>
+        <a href="#" class="menu-item">Menu 2</a>
+        <a href="#" class="menu-item">Menu 3</a>
+        <a href="#" class="menu-item">Menu 4</a>
+        <a href="#" class="menu-item">Menu 5</a>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
